@@ -58,6 +58,7 @@ The section below will list the variable in this dataset.This data has 81 column
 2. Activity                       : Factor w/ 6 levels WALKING,         WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 Rest of the columns below are of type: num
+
 Note: The data present in the dataset is average of each activity and each subject.
 
 3. tBodyAcc-mean()-X                 
