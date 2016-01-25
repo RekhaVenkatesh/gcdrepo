@@ -1,15 +1,6 @@
-# gcdrepo
 
-
----
-title: "Readme"
-author: "RekhaVenkatesh"
-date: "January 21, 2016"
-output: html_document
----
-
-Repo that contains files required for completion of Course Project - Getting and Cleaning Data
-This Repository contains the following files:
+This repo gcdrepo contains files required for completion of Course Project - Getting and Cleaning Data
+Thefollowing files were added:
 
 1. __Readme.md__ (this file)
 2. __CodeBook.md__ - file that describes the variables, data and any transformations that I performed to clean up data
