@@ -52,6 +52,24 @@ The resulting tidy data set was written to a CSV file called tidy_data.csv.
   write.csv(tidyDs, file="tidy_data.csv", row.names = FALSE)
 ```
 
+
+*****
+>  Variables in run_analysis.R
+
+****
+1. test -> dataframe with all merged test datasets
+2. train -> dataframe with all the merged train datasets
+3. dfMain -> dataframe with merged test and train datasets
+
+4. cnames -> list of all the labels for features captured
+5. lookup -> is the list of all labels for the activity captured from activity_labels.txt
+6. tidy_ds -> dataset that was tidied up for future analysis where the data captured was the mean of each subject and each activity
+
+*****
+> Variables tidy_data.txt
+
+****
+
 The section below will list the variable in this dataset.This data has 81 column names. The columns are:
 
 1. Subject                        : int  

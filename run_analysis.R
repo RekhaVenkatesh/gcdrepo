@@ -73,10 +73,10 @@
   #Should be sorted by subject, by activity, with mean values for each measure
   tidyDs <- tidyDs[order(tidyDs$Subject),] 
 
-  message("\tDump the tidy dataset to a CSV file called tidy_data.csv")
+  message("\tDump the tidy dataset to a CSV file called tidy_data.txt")
   #Dump this dataset to a file and call it tidy_data.csv
-  write.csv(tidyDs, file="tidy_data.csv", row.names = FALSE)
+  write.csv(tidyDs, file="tidy_data.txt", row.names = FALSE)
   
-  message("Check the current folder for a file called tidy_data.csv")
+  message("Check the current folder for a file called tidy_data.txt")
   
 

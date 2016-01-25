@@ -87,12 +87,30 @@ img {
             select(-c(subject, activity)) ##remove duplicate columns</code></pre>
 <p>The resulting tidy data set was written to a CSV file called tidy_data.csv.</p>
 <pre class="{r}"><code>  write.csv(tidyDs, file=&quot;tidy_data.csv&quot;, row.names = FALSE)</code></pre>
+<hr />
+<blockquote>
+<p>Variables in run_analysis.R</p>
+</blockquote>
+<hr />
+<ol style="list-style-type: decimal">
+<li>test -&gt; dataframe with all merged test datasets</li>
+<li>train -&gt; dataframe with all the merged train datasets</li>
+<li><p>dfMain -&gt; dataframe with merged test and train datasets</p></li>
+<li>cnames -&gt; list of all the labels for features captured</li>
+<li>lookup -&gt; is the list of all labels for the activity captured from activity_labels.txt</li>
+<li><p>tidy_ds -&gt; dataset that was tidied up for future analysis where the data captured was the mean of each subject and each activity</p></li>
+</ol>
+<hr />
+<blockquote>
+<p>Variables tidy_data.txt</p>
+</blockquote>
+<hr />
 <p>The section below will list the variable in this dataset.This data has 81 column names. The columns are:</p>
 <ol style="list-style-type: decimal">
 <li>Subject : int<br /></li>
 <li>Activity : Factor w/ 6 levels WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING</li>
 </ol>
-<p>All the columns below are of type: num</p>
+<p>All the columns below are of type: num <strong>Note: The data present in the dataset is average of each activity and each subject. </strong></p>
 <ol start="3" style="list-style-type: decimal">
 <li>tBodyAcc-mean()-X<br /></li>
 <li>tBodyAcc-mean()-Y<br /></li>
@@ -174,7 +192,6 @@ img {
 <li>fBodyBodyGyroJerkMag-std()<br /></li>
 <li>fBodyBodyGyroJerkMag-meanFreq()</li>
 </ol>
-<p>For explanation on these features please refer to the following features file: features_info.txt (./data/features_info.txt)</p>
 
 
 </div>
